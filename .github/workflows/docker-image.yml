@@ -2,7 +2,7 @@ name: CI/CD with ArgoCD
 
 on:
   push:
-    branches: [ main ]
+    branches: [ JAVASCRIPT ]
 
 jobs:
   build-and-deploy:
