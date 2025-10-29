@@ -1,0 +1,14 @@
+name: CI/CD with ArgoCD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ اسحب الكود
+      - name: Checkout code
+        uses: actions/checkout@v4
